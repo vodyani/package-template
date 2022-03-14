@@ -4,17 +4,19 @@
 
 ## Branches
 
-### JavaScript Common Package
+### TypeScript Common Package
 
 **Usage:**
 
 1. *Clone to local.*
 
 ```
-git clone -b js https://github.com/vodyani/package.git
+git clone -b ts https://github.com/vodyani/package.git
 ```
 
 2. *Modify the preset in package.json and replace the previous value with the name-package information you want to broadcast.*
 
 - <PACKAGE_NAME>
 - <PACKAGE_DESCRIPTION>
+
+3. *Create unit test logic in `test/index.sepc.ts`.*

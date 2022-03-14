@@ -17,8 +17,42 @@
   },
   "main": "index.js",
   "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint ./src ./test && tsc",
+    "lint:fix": "eslint --fix --ext .ts src/ test/",
+    "lint:html-report": "eslint ./src ./test -f html -o eslint-report.html",
+    "lint:json-report": "eslint ./src ./test -f json -o eslint-report.json",
+    "build": "rm -rf dist && tsc",
     "major": "npm version major && git push",
     "minor": "npm version minor && git push",
     "patch": "npm version patch && git push"
+  },
+  "devDependencies": {
+    "@vodyani/eslint-config": "^0.0.1",
+    "@nestjs/testing": "^8.4.0",
+    "@types/express": "^4.17.13",
+    "@types/jest": "^26.0.15",
+    "@types/lodash": "^4.14.179",
+    "@types/node": "^16.11.26",
+    "@types/supertest": "^2.0.11",
+    "jest": "^26.6.3",
+    "supertest": "^6.1.6",
+    "ts-jest": "^26.4.4",
+    "typescript": "^4.6.2"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testRegex": "(/test/.spec.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleNameMapper": {
+      "@/(.*)$": "<rootDir>/src/$1"
+    },
+    "transform": {
+      "^.+\\.js$": "babel-jest",
+      "^.+\\.ts$": "ts-jest"
+    },
+    "transformIgnorePatterns": [
+      "./node_modules/(?!(lodash-es|other-es-lib))"
+    ]
   }
 }
