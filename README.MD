@@ -1,22 +1,37 @@
-# Vodyani Package
+# Vodyani <PACKAGE>
 
-*This repository contains project templates that are widely used by the vodyani npm packge, and you may build templates by selecting various branches.*
+# <PACKAGE>
 
-## Branches
+*<PACKAGE_DESCRIPTION>*
 
-### TypeScript Common Package
+[![Npm](https://img.shields.io/npm/v/@vodyani/<PACKAGE>)](https://www.npmjs.com/package/@vodyani/<PACKAGE>)
+[![codecov](https://codecov.io/gh/vodyani/<PACKAGE>/branch/main/graph/badge.svg?token=YHBHSZH5PB)](https://codecov.io/gh/vodyani/<PACKAGE>)
+[![Npm](https://img.shields.io/npm/dm/@vodyani/<PACKAGE>)](https://www.npmjs.com/package/@vodyani/<PACKAGE>)
+[![Known Vulnerabilities](https://snyk.io/test/github/vodyani/<PACKAGE>/badge.svg?targetFile=package.json)](https://snyk.io/test/github/vodyani/<PACKAGE>?targetFile=package.json)
+[![License](https://img.shields.io/github/license/vodyani/<PACKAGE>)](LICENSE)
 
-**Usage:**
+## Installation
 
-1. *Clone to local.*
-
+```sh
+npm install --save-dev @vodyani/<PACKAGE>
 ```
-git clone -b ts https://github.com/vodyani/package.git
-```
 
-2. *Modify the preset in package.json and replace the previous value with the name-package information you want to broadcast.*
+## Usage
 
-- <PACKAGE_NAME>
-- <PACKAGE_DESCRIPTION>
+## Dependencies
 
-3. *Create unit test logic in `test/index.sepc.ts`.*
+## Who Use <PACKAGE>
+
+## Contributing
+
+## **Donations**
+
+## Links
+
+## Security
+
+Vodyani <PACKAGE> [Security](SECURITY)
+
+## License
+
+Vodyani <PACKAGE> is [MIT licensed](LICENSE).
