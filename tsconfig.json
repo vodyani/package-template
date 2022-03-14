@@ -1,20 +1,16 @@
 {
   "include": [
-    "./src/*",
-    "./src/**/*/*"
+    "src",
   ],
   "exclude": [
     "**/*.spec.ts",
-    "**/*.spec.js",
-    "./test/*",
-    "./test/**/*/*",
     "node_modules"
   ],
   "compilerOptions": {
-    "baseUrl": "./",
+    "baseUrl": ".",
     "lib": ["ESNext"],
     "target": "ES6",
-    "outDir": "./dist",
+    "outDir": "dist",
     "module": "CommonJS",
     "sourceMap": true,
     "declaration": true,

@@ -15,31 +15,47 @@
   "bugs": {
     "url": "https://github.com/vodyani/<PACKAGE_NAME>/issues"
   },
-  "main": "index.js",
+  "files": [
+    "package.json",
+    "README.MD",
+    "LICENSE",
+    "dist"
+  ],
+  "main": "dist/index.js",
   "scripts": {
+    "build": "rm -rf dist && tsc",
     "test": "jest",
     "test:coverage": "jest --coverage",
     "lint": "eslint ./src ./test && tsc",
     "lint:fix": "eslint --fix --ext .ts src/ test/",
     "lint:html-report": "eslint ./src ./test -f html -o eslint-report.html",
     "lint:json-report": "eslint ./src ./test -f json -o eslint-report.json",
-    "build": "rm -rf dist && tsc",
-    "major": "npm version major && git push",
-    "minor": "npm version minor && git push",
-    "patch": "npm version patch && git push"
+    "release": "standard-version",
+    "release:first": "npm run release -- --prerelease",
+    "release:prepatch": "npm run release -r prepatch && npm run release:commit",
+    "release:patch": "npm run release -r prepatch && npm run release:commit",
+    "release:minor": "npm run release -r prepatch && npm run release:commit",
+    "release:major": "npm run release -r prepatch && npm run release:commit",
+    "release:commit": "git add . && git commit -m \"chore(release): publish v$npm_package_version\""
   },
-  "devDependencies": {
-    "@vodyani/eslint-config": "^0.0.1",
-    "@nestjs/testing": "^8.4.0",
-    "@types/express": "^4.17.13",
-    "@types/jest": "^26.0.15",
-    "@types/lodash": "^4.14.179",
-    "@types/node": "^16.11.26",
-    "@types/supertest": "^2.0.11",
-    "jest": "^26.6.3",
-    "supertest": "^6.1.6",
-    "ts-jest": "^26.4.4",
-    "typescript": "^4.6.2"
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "standard-version": {
+    "skip": {
+      "tag": true,
+      "commit": true
+    }
+  },
+  "eslintConfig": {
+    "extends": "@vodyani"
   },
   "jest": {
     "testEnvironment": "node",
@@ -54,5 +70,23 @@
     "transformIgnorePatterns": [
       "./node_modules/(?!(lodash-es|other-es-lib))"
     ]
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.1",
+    "@commitlint/config-conventional": "^16.2.1",
+    "@vodyani/eslint-config": "^0.0.1",
+    "@nestjs/testing": "^8.4.0",
+    "@types/express": "^4.17.13",
+    "@types/jest": "^26.0.15",
+    "@types/lodash": "^4.14.179",
+    "@types/node": "^16.11.26",
+    "@types/supertest": "^2.0.11",
+    "jest": "^26.6.3",
+    "supertest": "^6.1.6",
+    "ts-jest": "^26.4.4",
+    "husky": "^4.3.8",
+    "commitizen": "^4.2.4",
+    "standard-version": "^9.3.2",
+    "typescript": "^4.6.2"
   }
 }
