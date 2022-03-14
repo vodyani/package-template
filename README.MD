@@ -28,10 +28,6 @@ npm install --save-dev @vodyani/<PACKAGE>
 
 ## Links
 
-## Security
-
-Vodyani <PACKAGE> [Security](SECURITY)
-
 ## License
 
 Vodyani <PACKAGE> is [MIT licensed](LICENSE).
