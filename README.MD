@@ -5,10 +5,10 @@
 *<PACKAGE_DESCRIPTION>*
 
 [![Npm](https://img.shields.io/npm/v/@vodyani/<PACKAGE>)](https://www.npmjs.com/package/@vodyani/<PACKAGE>)
-[![codecov](https://codecov.io/gh/vodyani/<PACKAGE>/branch/main/graph/badge.svg?token=YHBHSZH5PB)](https://codecov.io/gh/vodyani/<PACKAGE>)
 [![Npm](https://img.shields.io/npm/dm/@vodyani/<PACKAGE>)](https://www.npmjs.com/package/@vodyani/<PACKAGE>)
-[![Known Vulnerabilities](https://snyk.io/test/github/vodyani/<PACKAGE>/badge.svg?targetFile=package.json)](https://snyk.io/test/github/vodyani/<PACKAGE>?targetFile=package.json)
 [![License](https://img.shields.io/github/license/vodyani/<PACKAGE>)](LICENSE)
+[![codecov](https://codecov.io/gh/vodyani/<PACKAGE>/branch/main/graph/badge.svg?token=YHBHSZH5PB)](https://codecov.io/gh/vodyani/<PACKAGE>)
+[![Known Vulnerabilities](https://snyk.io/test/github/vodyani/<PACKAGE>/badge.svg?targetFile=package.json)](https://snyk.io/test/github/vodyani/<PACKAGE>?targetFile=package.json)
 
 ## Installation
 
