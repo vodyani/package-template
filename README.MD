@@ -6,13 +6,18 @@
 
 ### JavaScript Common Package
 
-> The alias: js
+**Usage:**
 
-**Usage**
+1. *Clone to local.*
 
 ```
 git clone -b js https://github.com/vodyani/package.git
 ```
+
+2. *Modify the preset in package.json and replace the previous value with the name-package information you want to broadcast.*
+
+- <PACKAGE_NAME>
+- <PACKAGE_DESCRIPTION>
 
 ### TypeScript Common Package
 
