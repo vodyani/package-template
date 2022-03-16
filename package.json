@@ -10,7 +10,9 @@
     "url": "git+https://github.com/vodyani/<PACKAGE_NAME>.git"
   },
   "keywords": [
-    "<Define package keywords here>"
+    "vodyani",
+    "javascript",
+    "npm-package"
   ],
   "bugs": {
     "url": "https://github.com/vodyani/<PACKAGE_NAME>/issues"
