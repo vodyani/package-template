@@ -7,7 +7,6 @@
 [![Npm](https://img.shields.io/npm/v/@vodyani/<PACKAGE_NAME>)](https://www.npmjs.com/package/@vodyani/<PACKAGE_NAME>)
 [![Npm](https://img.shields.io/npm/dm/@vodyani/<PACKAGE_NAME>)](https://www.npmjs.com/package/@vodyani/<PACKAGE_NAME>)
 [![License](https://img.shields.io/github/license/vodyani/<PACKAGE_NAME>)](LICENSE)
-[![codecov](https://codecov.io/gh/vodyani/<PACKAGE_NAME>/branch/main/graph/badge.svg?token=YHBHSZH5PB)](https://codecov.io/gh/vodyani/<PACKAGE_NAME>)
 [![Known Vulnerabilities](https://snyk.io/test/github/vodyani/<PACKAGE_NAME>/badge.svg?targetFile=package.json)](https://snyk.io/test/github/vodyani/<PACKAGE_NAME>?targetFile=package.json)
 
 ## Installation
