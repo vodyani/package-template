@@ -13,6 +13,8 @@ jobs:
     uses: vodyani/workflows/.github/workflows/publish-codecov.yml@master
     secrets:
       CODE_COV_CI_TOKEN: ${{ secrets.<PACKAGE_CODE_COV_CI_TOKEN> }}
+    with:
+      enable_build: true
 
   publish_package:
     needs: check_and_test
