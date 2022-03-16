@@ -22,9 +22,15 @@ npm install --save-dev @vodyani/<PACKAGE_NAME>
 
 ## Contributing
 
+- ❤ building
+
 ## **Donations**
 
+- ❤ building
+
 ## Links
+
+- ❤ building
 
 ## License
 
