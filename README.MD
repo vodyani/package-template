@@ -1,7 +1,5 @@
 # Vodyani <PACKAGE_NAME>
 
-# <PACKAGE_NAME>
-
 *<PACKAGE_DESCRIPTION>*
 
 [![Npm](https://img.shields.io/npm/v/@vodyani/<PACKAGE_NAME>)](https://www.npmjs.com/package/@vodyani/<PACKAGE_NAME>)
