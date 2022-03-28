@@ -55,6 +55,11 @@ CODECOV_CI_TOKEN_BY_<YOUR_PACKAGE_NAME>
 
 - <PACKAGE_CODE_COV_CI_TOKEN>
 
+5. *Replace readme badge*
+
+- <PACKAGE_CODE_COV_BADGE>
+
+
 ## License
 
 Vodyani Package Template is [MIT licensed](LICENSE).
