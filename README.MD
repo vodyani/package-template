@@ -1,14 +1,12 @@
 # Vodyani <PACKAGE_NAME>
 
-# <PACKAGE_NAME>
-
 *<PACKAGE_DESCRIPTION>*
 
 [![Npm](https://img.shields.io/npm/v/@vodyani/<PACKAGE_NAME>)](https://www.npmjs.com/package/@vodyani/<PACKAGE_NAME>)
 [![Npm](https://img.shields.io/npm/dm/@vodyani/<PACKAGE_NAME>)](https://www.npmjs.com/package/@vodyani/<PACKAGE_NAME>)
 [![License](https://img.shields.io/github/license/vodyani/<PACKAGE_NAME>)](LICENSE)
 ![Workflow](https://github.com/vodyani/<PACKAGE_NAME>/actions/workflows/release.yml/badge.svg)
-[![codecov](https://codecov.io/gh/vodyani/<PACKAGE_NAME>/branch/main/graph/badge.svg?token=YHBHSZH5PB)](https://codecov.io/gh/vodyani/<PACKAGE_NAME>)
+<PACKAGE_CODE_COV_BADGE>
 [![Known Vulnerabilities](https://snyk.io/test/github/vodyani/<PACKAGE_NAME>/badge.svg?targetFile=package.json)](https://snyk.io/test/github/vodyani/<PACKAGE_NAME>?targetFile=package.json)
 
 ## Installation
@@ -16,8 +14,6 @@
 ```sh
 npm install @vodyani/<PACKAGE_NAME>
 ```
-
-## Usage
 
 ## Dependencies
 
