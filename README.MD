@@ -21,18 +21,6 @@ npm install @vodyani/<PACKAGE_NAME>
 
 ## Dependencies
 
-## Contributing
-
-- ❤ building
-
-## **Donations**
-
-- ❤ building
-
-## Links
-
-- ❤ building
-
 ## License
 
 Vodyani <PACKAGE_NAME> is [MIT licensed](LICENSE).
