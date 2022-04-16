@@ -15,8 +15,6 @@
 npm install @vodyani/<PACKAGE_NAME>
 ```
 
-## Contributing
-
 ## License
 
 Vodyani <PACKAGE_NAME> is [MIT licensed](LICENSE).
