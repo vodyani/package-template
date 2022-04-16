@@ -14,8 +14,6 @@
 npm install --save-dev @vodyani/<PACKAGE_NAME>
 ```
 
-## Dependencies
-
 ## License
 
 Vodyani <PACKAGE_NAME> is [MIT licensed](LICENSE).
