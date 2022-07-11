@@ -1,19 +1,28 @@
 # Vodyani <PACKAGE_NAME>
 
-*<PACKAGE_DESCRIPTION>*
+**<PACKAGE_DESCRIPTION>**
 
 [![Npm](https://img.shields.io/npm/v/@vodyani/<PACKAGE_NAME>)](https://www.npmjs.com/package/@vodyani/<PACKAGE_NAME>)
 [![Npm](https://img.shields.io/npm/dm/@vodyani/<PACKAGE_NAME>)](https://www.npmjs.com/package/@vodyani/<PACKAGE_NAME>)
 [![License](https://img.shields.io/github/license/vodyani/<PACKAGE_NAME>)](LICENSE)
 ![Workflow](https://github.com/vodyani/<PACKAGE_NAME>/actions/workflows/release.yml/badge.svg)
 <PACKAGE_CODE_COV_BADGE>
-[![Known Vulnerabilities](https://snyk.io/test/github/vodyani/<PACKAGE_NAME>/badge.svg?targetFile=package.json)](https://snyk.io/test/github/vodyani/<PACKAGE_NAME>?targetFile=package.json)
+
+## Features
+
+...
 
 ## Installation
 
 ```sh
 npm install @vodyani/<PACKAGE_NAME>
 ```
+
+## Team
+
+|[![ChoGathK](https://github.com/chogathK.png?size=100)](https://github.com/chogathK)|
+|:-:|
+|[ChoGathK](https://github.com/chogathK)|
 
 ## License
 
