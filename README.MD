@@ -14,10 +14,6 @@
 
 building...
 
-## Features
-
-...
-
 ## Installation
 
 ```sh
