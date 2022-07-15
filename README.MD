@@ -10,15 +10,15 @@
 ![Workflow](https://github.com/vodyani/<PACKAGE_NAME>/actions/workflows/release.yml/badge.svg)
 <PACKAGE_CODE_COV_BADGE>
 
-## Features
-
-building...
-
 ## Installation
 
 ```sh
 npm install @vodyani/<PACKAGE_NAME>
 ```
+
+## Usage
+
+...
 
 ## Team
 
