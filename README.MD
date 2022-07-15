@@ -7,15 +7,15 @@
 [![License](https://img.shields.io/github/license/vodyani/<PACKAGE_NAME>)](LICENSE)
 ![Workflow](https://github.com/vodyani/<PACKAGE_NAME>/actions/workflows/release.yml/badge.svg)
 
-## Features
-
-...
-
 ## Installation
 
 ```sh
 npm install --save-dev @vodyani/<PACKAGE_NAME>
 ```
+
+## Usage
+
+...
 
 ## Team
 
