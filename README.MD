@@ -9,6 +9,7 @@
 <br>
 ![Workflow](https://github.com/vodyani/<PACKAGE_NAME>/actions/workflows/release.yml/badge.svg)
 <PACKAGE_CODE_COV_BADGE>
+[![semantic-release: angular](https://img.shields.io/badge/semantic--release-angular-e10079?logo=semantic-release)](https://github.com/semantic-release/semantic-release)
 
 ## Installation
 
